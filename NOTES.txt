@@ -1,0 +1,11 @@
+# dvd - ps4
+# game = switch
+# input-selector
+# video2 = ps5
+# video3 = switch
+# video4 = aux
+# strm-box = computer
+# kp6 pc: onkyo --host 192.168.11.21 --port 60128 input-selector=strm-box
+# kp4 ps4: onkyo --host 192.168.11.21 --port 60128 input-selector=dvd
+# kp5 ps5: onkyo --host 192.168.11.21 --port 60128 input-selector=video2
+# kp3 switch: onkyo --host 192.168.11.21 --port 60128 input-selector=game
