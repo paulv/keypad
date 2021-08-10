@@ -6,3 +6,6 @@ kp4: switch_to_ps4
 kp5: switch_to_ps5
 kp6: switch_to_pc
 kp7: switch_to_switch
+kpenter: toggle_mute
+kpplus: volume_up
+kpminus: volume_down
