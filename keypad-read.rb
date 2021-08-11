@@ -6,7 +6,7 @@ require './commands.rb'
 
 version = %x(git log --pretty=format:"%h"  -1)
 
-puts "version: #{version}"
+puts "Started version #{version}."
 
 DEVICE = "/dev/input/by-id/usb-04d9_1203-event-kbd"
 command_map = YAML.load_file "config.yaml"
