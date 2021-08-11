@@ -4,7 +4,7 @@ require 'yaml'
 require './ffi.rb'
 require './commands.rb'
 
-version = qx(git log --pretty=format:"%h"  -1)
+version = %x(git log --pretty=format:"%h"  -1)
 
 puts "version: #{version}"
 
