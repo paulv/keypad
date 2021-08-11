@@ -4,6 +4,9 @@ require 'yaml'
 require './ffi.rb'
 require './commands.rb'
 
+version = qx(git log --pretty=format:"%h"  -1)
+
+puts "version: #{version}"
 
 DEVICE = "/dev/input/by-id/usb-04d9_1203-event-kbd"
 command_map = YAML.load_file "config.yaml"
