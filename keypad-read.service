@@ -4,8 +4,6 @@ After=network.target
 
 [Service]
 Type=simple
-User=pi
-Group=pi
 WorkingDirectory=/home/pi/keypad/
 ExecStart=/home/pi/keypad/keypad-start.sh
 Restart=on-failure
